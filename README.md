@@ -17,7 +17,14 @@ if($_SESSION['usr_role'] != "administrator") {
 }
 ```
 
+## test account:
+### admin
 
+Username: admin
+
+Password: test
+
+email: admin@gmail.com
 
 
 * Dispatch can look up vehicles by their plate
