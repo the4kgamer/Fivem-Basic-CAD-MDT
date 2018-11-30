@@ -9,11 +9,10 @@ I really advise against usage of this as it is not finished and I have no intent
 
 * Admins can delete users, lacking verification tools when going into admin pages, easy to add. Just add:
 
-```
-include_once 'dbconnect.php';
-$role = mysqli_real_escape_string($con, $_SESSION['usr_role']);
 
-if($role != "administrator") {
+
+```
+if($_SESSION['usr_role'] != "administrator") {
     header("Location: dashboard.php");
 }
 ```
