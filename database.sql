@@ -70,7 +70,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Dumping data for table testdb.users: ~1 rows (approximately)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 INSERT INTO `users` (`id`, `name`, `email`, `valid`, `password`, `cpasscode`, `passcode`, `role`, `admin`, `date`, `east`, `west`, `online`) VALUES
-	(25, 'the4kgamerdddd', 'jacksminecraft3778@gmail.com', 'yes', 'Echidna.73', '', 'FiveAdminEnlightened', 'dsadf', 'ADMINISTRATOR', '02/28/02', NULL, NULL, 'yes');
+	(25, 'admin', 'admin@gmail.com', 'yes', 'test', '', 'FiveAdminEnlightened', 'dsadf', 'ADMINISTRATOR', '02/28/02', NULL, NULL, 'yes');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 -- Dumping structure for table testdb.valid
