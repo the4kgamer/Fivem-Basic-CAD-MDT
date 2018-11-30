@@ -20,6 +20,9 @@ if($role != "administrator") {
 
 ```
 
+* Dispatch can look up vehicles by their plate
 
+and some more, I cannot quite remember.
+I understand it seems like a lack of features, but it was very experemental. Similar concept to my prev PHP repo, just for viewing, would rather no one use, but as if anyone would use it ¯\_(ツ)_/¯
 
 
